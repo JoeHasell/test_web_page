@@ -65,8 +65,7 @@ p {
 <div class="row">
   <div class="column left">
     
-    <p id="slideText">This chart shows how the world’s population is split across three income thresholds: $30 a day, $10 a day and $1.90 a day.
-        The data shown is for 2017, the most recent year for which data is available.</p>
+    <p id="slideText">This chart shows... SLIDE 1</p>
   </div>
   <div class="column right">
 
@@ -82,21 +81,21 @@ p {
 <script>
     function switchSlide1() {
       document.getElementById("slideIframe").src = "https://ourworldindata.org/explorers/test-basic-poverty-explorer?facet=none&Metric=Share+in+poverty&Poverty+line=%241+a+day&country=IND~CHN~NGA~VNM~SSD~MDG~BGD~OWID_WRL&hideControls=false";
-      document.getElementById("slideText").innerHTML = 'This chart shows how the world’s population is split across three income thresholds: $30 a day, $10 a day and $1.90 a day. The data shown is for 2017, the most recent year for which data is available.'
+      document.getElementById("slideText").innerHTML = 'This chart shows... SLIDE 1.'
       
     
     }
 
     function switchSlide2() {
       document.getElementById("slideIframe").src = "https://ourworldindata.org/explorers/test-basic-poverty-explorer?region=Africa&facet=none&hideControls=false&Metric=Number+in+poverty&Poverty+line=%241+a+day&country=IND~CHN~NGA~VNM~SSD~MDG~BGD~OWID_WRL";
-      document.getElementById("slideText").innerHTML = 'my text 2'
+      document.getElementById("slideText").innerHTML = 'SLIDE 2 TEXT'
 
     
     }
 
     function switchSlide3() {
       document.getElementById("slideIframe").src = "https://ourworldindata.org/explorers/test-basic-poverty-explorer?region=Africa&facet=none&hideControls=false&Metric=Number+in+poverty&Poverty+line=%241+a+day&country=IND~CHN~NGA~VNM~SSD~MDG~BGD~OWID_WRL";
-      document.getElementById("slideText").innerHTML = 'my text 3'
+      document.getElementById("slideText").innerHTML = 'SLIDE 3 TEXT'
 
     
     }
